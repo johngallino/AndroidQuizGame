@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RegisterLogin</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">register</string>
+    <string name="reg_phrase">Register a New Account</string>
+    <string name="badentry">Sorry, that\'s wrong.</string>
+    <string name="inside">You\'re in!</string>
+    <string name="regheader">Make a New Account</string>
+
+    <string name="err_email">Not a valid email.</string>
+    <string name="err_user">Username must be between 4 and 30 characters, no symbols</string>
+    <string name="err_pass">Password must be 6–14 characters</string>
+    <string name="err_date">Not a valid date.</string>
+    <string name="err_passmatch">Passwords do not match</string>
+    <string name="err_empty">You must fill out all fields.</string>
+</resources>
