@@ -8,6 +8,9 @@
     <string name="badentry">Sorry, that\'s wrong.</string>
     <string name="inside">You\'re in!</string>
     <string name="regheader">Make a New Account</string>
+    <string name="next">Next >></string>
+    <string name="testlogin">Test login with admin : pass</string>
+    <string name="clearscores">Clear Scores</string>
 
     <string name="err_email">Not a valid email.</string>
     <string name="err_user">Username must be between 4 and 30 characters, no symbols</string>
@@ -15,4 +18,57 @@
     <string name="err_date">Not a valid date.</string>
     <string name="err_passmatch">Passwords do not match</string>
     <string name="err_empty">You must fill out all fields.</string>
+
+    <string name="welcome">Welcome to the game!</string>
+    <string name="instructions">The rules are simple. You will be asked five geography questions. At the end of the game you will receive your score.</string>
+
+    <string name="start">Start</string>
+    <string name="viewstats">View Past Scores</string>
+    <string name="date">Date and Time</string>
+
+    <string name="yourscores">Your Past Scores</string>
+
+    <string name="q1">Question 1</string>
+    <string name="q1q">Montclair University is located mostly in what city?</string>
+    <string name="q1a1">Clifton, NJ</string>
+    <string name="q1a2">Montclair, NJ</string>
+    <string name="q1a3">Little Falls, NJ</string>
+    <string name="q1a4">Monmouth, NJ</string>
+
+    <string name="q2">Question 2</string>
+    <string name="q2q">What is the capital of Belgium?</string>
+    <string name="q2a1">Gent</string>
+    <string name="q2a2">Brussels</string>
+    <string name="q2a3">Vienna</string>
+    <string name="q2a4">Bruges</string>
+
+    <string name="q3">Question 3</string>
+    <string name="q3q">Germany is the largest country in Europe.</string>
+    <string name="a_true">True</string>
+    <string name="a_false">False</string>
+
+
+    <string name="q4">Question 4</string>
+    <string name="q4q">What is the longest river in the US?</string>
+    <string-array name="rivers">
+        <item>Mississippi River</item>
+        <item>Colorado River</item>
+        <item>Rio Grande</item>
+        <item>Missouri River</item>
+    </string-array>
+
+    <string name="q5">Question 5</string>
+    <string name="q5q">How many countries border Spain?</string>
+    <string name="q5a1">One</string>
+    <string name="q5a2">Two</string>
+    <string name="q5a3">Three</string>
+    <string name="q5a4">Four</string>
+
+    <string name="yourscore">Your Score:</string>
+    <string name="bestscore">Perfect!</string>
+    <string name="goodscore">Pretty good!</string>
+    <string name="badscore">Better luck next time!</string>
+    <string name="playagain">Play Again</string>
+
+
 </resources>

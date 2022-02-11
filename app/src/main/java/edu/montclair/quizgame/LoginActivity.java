@@ -1,4 +1,4 @@
-package edu.montclair.registerlogin;
+package edu.montclair.quizgame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,8 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -39,7 +37,6 @@ public class LoginActivity extends AppCompatActivity {
 
 // User may enter with sample credentials of admin and pass
                 if ((userentry.equals("admin")) && (passentry.equals("pass"))){
-                    Log.i("Good!", "Good!");
                     startActivity(gotoInside);
 
                 }

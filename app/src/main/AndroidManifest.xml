@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.montclair.registerlogin">
+    package="edu.montclair.quizgame">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".PastScores"></activity>
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".Act_Question5" />
+        <activity android:name=".Act_Question4" />
+        <activity android:name=".Act_Question3" />
+        <activity android:name=".Act_Question2" />
+        <activity android:name=".Act_Question1" />
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".InsideActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">

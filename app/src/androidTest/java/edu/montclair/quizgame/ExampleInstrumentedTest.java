@@ -1,4 +1,4 @@
-package edu.montclair.registerlogin;
+package edu.montclair.quizgame;
 
 import android.content.Context;
 

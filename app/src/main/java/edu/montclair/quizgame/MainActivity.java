@@ -1,13 +1,14 @@
-package edu.montclair.registerlogin;
+package edu.montclair.quizgame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ProgressBar;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import edu.montclair.quizgame.R;
 
 public class MainActivity extends AppCompatActivity {
     int counter=0;
@@ -15,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
     public void openLoginActivity() {
         Intent gotoLogin = new Intent(this, LoginActivity.class);
         startActivity(gotoLogin);
+    }
+
+    public void openGameActivity() {
+        Intent gotoGame= new Intent(this, Act_Question1.class);
+        startActivity(gotoGame);
     }
 
     @Override
@@ -36,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
                 if (counter == 100){
                     t.cancel();
                     // Goes to next activity
-                    openLoginActivity();
+                    openGameActivity();
+
                 }
             }
         };
